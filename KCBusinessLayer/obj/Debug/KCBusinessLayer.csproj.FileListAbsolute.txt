@@ -1,0 +1,9 @@
+D:\Prrogramming Projects\Desktop\Karate Club\App\KCBusinessLayer\bin\Debug\KCBusinessLayer.dll
+D:\Prrogramming Projects\Desktop\Karate Club\App\KCBusinessLayer\bin\Debug\KCBusinessLayer.pdb
+D:\Prrogramming Projects\Desktop\Karate Club\App\KCBusinessLayer\obj\Debug\KCBusinessLayer.csproj.AssemblyReference.cache
+D:\Prrogramming Projects\Desktop\Karate Club\App\KCBusinessLayer\obj\Debug\KCBusinessLayer.csproj.CoreCompileInputs.cache
+D:\Prrogramming Projects\Desktop\Karate Club\App\KCBusinessLayer\obj\Debug\KCBusinessLayer.dll
+D:\Prrogramming Projects\Desktop\Karate Club\App\KCBusinessLayer\obj\Debug\KCBusinessLayer.pdb
+D:\Prrogramming Projects\Desktop\Karate Club\App\KCBusinessLayer\bin\Debug\KCDataAccessLayer.dll
+D:\Prrogramming Projects\Desktop\Karate Club\App\KCBusinessLayer\bin\Debug\KCDataAccessLayer.pdb
+D:\Prrogramming Projects\Desktop\Karate Club\App\KCBusinessLayer\obj\Debug\KCBusinessLayer.csproj.CopyComplete

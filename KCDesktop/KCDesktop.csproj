@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E0CAF987-7E0F-4AA2-AB76-7F5EB005D174}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>KCDesktop</RootNamespace>
+    <AssemblyName>KCDesktop</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="helper_lib\Date.cs" />
+    <Compile Include="helper_lib\Lib.cs" />
+    <Compile Include="helper_lib\Validation.cs" />
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ui\instractors\FrmInstractor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\instractors\FrmInstractor.Designer.cs">
+      <DependentUpon>FrmInstractor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\members\FrmManegeMembers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\members\FrmManegeMembers.Designer.cs">
+      <DependentUpon>FrmManegeMembers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\members\FrmPaymentHIstory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\members\FrmPaymentHIstory.Designer.cs">
+      <DependentUpon>FrmPaymentHIstory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\payment\FrmPaymentMethod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\payment\FrmPaymentMethod.Designer.cs">
+      <DependentUpon>FrmPaymentMethod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\subscription\FrmFee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\subscription\FrmFee.Designer.cs">
+      <DependentUpon>FrmFee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\subscription\FrmSubscriptionList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\subscription\FrmSubscriptionList.Designer.cs">
+      <DependentUpon>FrmSubscriptionList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\test\FrmTakeTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\test\FrmTakeTest.Designer.cs">
+      <DependentUpon>FrmTakeTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\test\FrmTestFee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\test\FrmTestFee.Designer.cs">
+      <DependentUpon>FrmTestFee.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ui\instractors\FrmInstractor.resx">
+      <DependentUpon>FrmInstractor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\members\FrmManegeMembers.resx">
+      <DependentUpon>FrmManegeMembers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\members\FrmPaymentHIstory.resx">
+      <DependentUpon>FrmPaymentHIstory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\payment\FrmPaymentMethod.resx">
+      <DependentUpon>FrmPaymentMethod.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\subscription\FrmFee.resx">
+      <DependentUpon>FrmFee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\subscription\FrmSubscriptionList.resx">
+      <DependentUpon>FrmSubscriptionList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\test\FrmTakeTest.resx">
+      <DependentUpon>FrmTakeTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\test\FrmTestFee.resx">
+      <DependentUpon>FrmTestFee.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\KCBusinessLayer\KCBusinessLayer.csproj">
+      <Project>{d0bec257-b642-4f35-8ae3-1f27e70135eb}</Project>
+      <Name>KCBusinessLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

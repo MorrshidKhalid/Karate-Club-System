@@ -1,0 +1,6 @@
+D:\Prrogramming Projects\Desktop\Karate Club\App\KCDataAccessLayer\bin\Debug\KCDataAccessLayer.dll
+D:\Prrogramming Projects\Desktop\Karate Club\App\KCDataAccessLayer\bin\Debug\KCDataAccessLayer.pdb
+D:\Prrogramming Projects\Desktop\Karate Club\App\KCDataAccessLayer\obj\Debug\KCDataAccessLayer.csproj.AssemblyReference.cache
+D:\Prrogramming Projects\Desktop\Karate Club\App\KCDataAccessLayer\obj\Debug\KCDataAccessLayer.csproj.CoreCompileInputs.cache
+D:\Prrogramming Projects\Desktop\Karate Club\App\KCDataAccessLayer\obj\Debug\KCDataAccessLayer.dll
+D:\Prrogramming Projects\Desktop\Karate Club\App\KCDataAccessLayer\obj\Debug\KCDataAccessLayer.pdb
