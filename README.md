@@ -9,7 +9,8 @@ To use this application follow the steps:
 
 **The karate-club - Relational Schema:**
 
-![Relational Schema icon](https://github.com/MorrshidKhalid/Karate-Club-System/assets/115463057/e177738a-b44f-4a86-8ced-c64322b6b434)
+![Screenshot (120)](https://github.com/MorrshidKhalid/Karate-Club-System/assets/115463057/623ef574-46dd-438f-931a-f2ee58e0bba5)
+
 
 
 **Some Pics from the system:**
